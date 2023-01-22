@@ -82,11 +82,17 @@
                 </div>
             </div>
             <div class="content-col">
-                <form onsubmit="">
-                    <input type="text" placeholder="Enter Name" required>
-                    <input type="email" placeholder="Enter Email" required>
-                    <input type="text" placeholder="Enter Subject" required>
-                    <textarea rows="8" placeholder="Message" required></textarea>
+                <form action="https://formsubmit.co/campustvandradio@gmail.com" method="POST">
+                    <!-- Honeypot -->
+                    <input type="text" name="_honey" style="display:none;" >
+                    <!--Disable captcha -->
+                    <input type="hidden" name="captcha" value="false">
+
+
+                    <input type="text" name="name" placeholder="Enter Name" required>
+                    <input type="email" name="email" placeholder="Enter Email" required>
+                    <input type="text" name="subject" placeholder="Enter Subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
                     <button type="submit" class="hero_btn btn">Send Message</button>
                 </form>
             </div>
@@ -105,14 +111,12 @@
             Campus TV and Radio Club (Frontiers) 📻
             A club started by the 2k19 & 2k20 batch's students of B.C.E. Bhagalpur in 2k21.
         </p>
-
-        <div class="icons">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-linkedin"></i>
+        <div className="icons">            
+            <a href="https://www.instagram.com/bcebhagalpur_official/" class="fab fa-youtube" target="_blank">&nbsp;&nbsp;</a>
+            <a href="https://www.instagram.com/bcebhagalpur_official/" class="fab fa-instagram" target="_blank">&nbsp;&nbsp;</a>
+            <a href="https://www.instagram.com/bcebhagalpur_official/" class="fab fa-linkedin" target="_blank">&nbsp;&nbsp;</a>
+            <a href="https://www.instagram.com/bcebhagalpur_official/" class="fab fa-twitter" target="_blank">&nbsp;&nbsp;</a>
         </div>
-
         <p>Copyright © CTR </p>
     </section>
     <!-- Footer Section End -->
