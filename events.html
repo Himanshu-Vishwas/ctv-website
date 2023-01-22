@@ -1,74 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Campus TV and Radio Club</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    />
+  </head>
 
-<body>
+  <body>
     <section class="Sub-header">
-        <nav>
-            <a href="index.html" class="logo">Frontiers</a>
-            <div class="nav-links" id="navLinks">
-                <!-- reposnive bar open and close -->
-                <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="activities.html">Activities</a></li>
-                    <li><a href="events.html">Events</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-            <!-- reposnive bar open and close -->
-        </nav>
-        <h1>Golden Moments</h1>
+      <nav>
+        <a href="index.html" class="logo">Frontiers</a>
+        <div class="nav-links" id="navLinks">
+          <!-- reposnive bar open and close -->
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        <!-- reposnive bar open and close -->
+      </nav>
+      <h1>Golden Moments</h1>
     </section>
 
     <!-- Blog Page Section Start -->
 
     <section class="blog-content">
-        <div class="row">
-            <div class="blog-left">
-                <h2>Our Golden Moments</h2>
-                <h5>Aug 1, 2021</h5>
-                <img src="img/post.png" alt="">
-                <p>Lorem ipsum dolor sit amet cotione expedita! Deleniti velit officia incidunt illum.</p>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore corrupti blanditiis deserunt
-                    incidunt itaquaudantium alias porro. Sapiente voluptatem eligendi at voluptatum optio
-                    facilis?</p>
-            <br>
-            <br>
-                    <h5>Aug 1, 2021</h5>
-                    <img src="img/post.png" alt="">
-                    <p>Lorem ipsum dolor sit amet cotione expedita! Deleniti velit officia incidunt illum.</p>
-                    <br>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore corrupti blanditiis deserunt
-                        incidunt itaquaudantium alias porro. Sapiente voluptatem eligendi at voluptatum optio
-                        facilis?</p>
-                
-                <div class="comment-box">
-                    <h3>Feedback</h3>
-                    <form class="comment-form">
-                        <input type="text" placeholder="Enter Name" required>
-                        <input type="email" placeholder="Enter Email" required>
-                        <textarea rows="5" placeholder="Your Comment"></textarea>
-                        <button type="submit" class="hero_btn btn">POST COMMENT</button>
-                    </form>
-                </div>
-            </div>
+      <div class="row">
+        <div class="blog-left">
+          <h2>Our Golden Moments</h2>
+          <h5>Aug 1, 2021</h5>
+          <img src="img/post.png" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet cotione expedita! Deleniti velit officia
+            incidunt illum.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            corrupti blanditiis deserunt incidunt itaquaudantium alias porro.
+            Sapiente voluptatem eligendi at voluptatum optio facilis?
+          </p>
+          <br />
+          <br />
+          <h5>Aug 1, 2021</h5>
+          <img src="img/post.png" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet cotione expedita! Deleniti velit officia
+            incidunt illum.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
+            corrupti blanditiis deserunt incidunt itaquaudantium alias porro.
+            Sapiente voluptatem eligendi at voluptatum optio facilis?
+          </p>
 
-            <!-- <div class="blog-right">
+          <div class="comment-box">
+            <h3>Feedback</h3>
+            <form
+              class="comment-form"
+              action="https://formsubmit.co/campustvandradio@gmail.com"
+              method="POST"
+            >
+              <!-- Honeypot -->
+              <input type="text" name="_honey" style="display: none" />
+              <!--Disable captcha -->
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="text" name="name" placeholder="Enter Name" required />
+              <input type="email" name="email" placeholder="Enter Email" required />
+              <textarea rows="5" name = "comment" placeholder="Your Comment"></textarea>
+              <button type="submit" class="hero_btn btn">POST COMMENT</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- <div class="blog-right">
                 <h3>Past Events</h3>
                 <div>
                     <span>Business Analytics</span>
@@ -91,30 +113,51 @@
                     <span>20</span>
                 </div>
             </div> -->
-        </div>
+      </div>
     </section>
 
     <!-- Blog Page Section end -->
-    
+
     <!-- Footer Section start -->
     <section class="footer">
-        <hr>
-        <h4>About Us</h4>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima incidunt odio nam facilis, eligendi
-            <br> Itaque fugiat cupiditate consectetur. Aliquid ab deserunt exercitationem, illum molestiae
-            dolorem.
-        </p>
-        <div className="icons">            
-            <a href="https://www.youtube.com/@bcebhagalpurofficial/" class="fab fa-youtube" style="font-size: 30px; margin: 10px; color: red;" target="_blank"></a>
-            <a href="https://www.instagram.com/bcebhagalpur_official/" class="fab fa-instagram" style="font-size: 30px; margin: 10px; color: #db19e2;" target="_blank"></a>
-            <a href="https://www.linkedin.com/in/frontiers-ctr-club-bcebgp/" class="fab fa-linkedin" style="font-size: 30px; margin: 10px; color: #0e76a8;" target="_blank"></a>
-            <a href="https://t.me/+9pDm9shMOXRkMjNl" class="fab fa-telegram" style="font-size: 30px; margin: 10px; color: #00acee;" target="_blank"></a>
-        </div>
-        <p>Copyright © CTR </p>
+      <hr />
+      <h4>About Us</h4>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse minima
+        incidunt odio nam facilis, eligendi <br />
+        Itaque fugiat cupiditate consectetur. Aliquid ab deserunt
+        exercitationem, illum molestiae dolorem.
+      </p>
+      <div className="icons">
+        <a
+          href="https://www.youtube.com/@bcebhagalpurofficial/"
+          class="fab fa-youtube"
+          style="font-size: 30px; margin: 10px; color: red"
+          target="_blank"
+        ></a>
+        <a
+          href="https://www.instagram.com/bcebhagalpur_official/"
+          class="fab fa-instagram"
+          style="font-size: 30px; margin: 10px; color: #db19e2"
+          target="_blank"
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/frontiers-ctr-club-bcebgp/"
+          class="fab fa-linkedin"
+          style="font-size: 30px; margin: 10px; color: #0e76a8"
+          target="_blank"
+        ></a>
+        <a
+          href="https://t.me/+9pDm9shMOXRkMjNl"
+          class="fab fa-telegram"
+          style="font-size: 30px; margin: 10px; color: #00acee"
+          target="_blank"
+        ></a>
+      </div>
+      <p>Copyright © CTR</p>
     </section>
     <!-- Footer Section end -->
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
