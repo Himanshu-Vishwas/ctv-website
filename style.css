@@ -8,7 +8,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(#517e86c4, #949fdf1a), url(img/banner.png);
+    background-image: linear-gradient(#034d5ac4, #2a0a8381), url(img/banner.png);
     background-position: center;
     background-size: cover;
     position: relative;
