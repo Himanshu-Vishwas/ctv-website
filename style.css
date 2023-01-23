@@ -8,7 +8,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(#517e86c4, #949fdf1a), url(img/banner1.png);
+    background-image: linear-gradient(#517e86c4, #949fdf1a), url(img/banner.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -120,6 +120,13 @@ nav .fab {
 nav .fa {
     display: none;
 }
+
+.hero{
+    width: 100%;
+    height: 100%;
+    /* padding-top: 50px; */
+}
+
 
 /* Responsive Navbar Section Start */
 
