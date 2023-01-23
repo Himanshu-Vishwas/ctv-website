@@ -8,7 +8,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(#034d5ac4, #2a0a8381), url(img/banner.png);
+    background-image: linear-gradient(#034d5ac4, #2a0a834d), url(img/banner.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -109,6 +109,15 @@ nav .fab {
     background: transparent;
     cursor: pointer;
     text-decoration: none;
+}
+.read_more{
+    margin-top: 50px;
+    background-color: rgba(53, 86, 88, 0.514);
+    font-size: large;
+}
+
+.read_more:hover{
+    color: black;
 }
 
 .hero_btn:hover {
