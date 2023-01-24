@@ -67,6 +67,15 @@ nav .fab {
     width: 100%;
 }
 
+.text.caption{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 15px;
+    opacity: 0.8;
+    
+}
+
 .text_box {
     width: 90%;
     color: #fff;
@@ -89,7 +98,7 @@ nav .fab {
     text-transform: uppercase;
     margin-top: -1%;
     margin-bottom: 1%;
-    color: #c8fff2;
+    color: #ffffff;
 }
 
 .text_box p {
