@@ -111,28 +111,24 @@
         </div>
 
         <div class="blog-right">
-                <h3>Past Events</h3>
-                <div>
-                    <span>Business Analytics</span>
-                    <span>12</span>
-                </div>
-                <div>
-                    <span>Machine Learning</span>
-                    <span>29</span>
-                </div>
-                <div>
-                    <span>Computer Science</span>
-                    <span>15</span>
-                </div>
-                <div>
-                    <span>Data Analytics</span>
-                    <span>22</span>
-                </div>
-                <div>
-                    <span>Full Stack</span>
-                    <span>20</span>
-                </div>
-            </div>
+          <h3>Watch Past Events</h3>
+          <div>
+            <span><a href="https://www.google.com">Website demo</a></span>
+            <span>24<sup>th</sup>January 2023</span>
+          </div>
+          <div>
+            <span><a href="https://www.google.com">Website demo</a></span>
+            <span>24<sup>th</sup>January 2023</span>
+          </div>
+          <div>
+            <span><a href="https://www.google.com">Website demo</a></span>
+            <span>24<sup>th</sup>January 2023</span>
+          </div>
+          <div>
+            <span><a href="https://www.google.com">Website demo</a></span>
+            <span>24<sup>th</sup>January 2023</span>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -143,9 +139,9 @@
       <hr />
       <h4>Our Vision</h4>
       <p>
-        This is the B.C.E Bhagalpur's official Club. The aim of the club is to showcase all
-        the events🎭, club activities⚽, talents and college life at BCE
-        Bhagalpur. It is a soul initiative of Campus TV and Radio Club
+        This is the B.C.E Bhagalpur's official Club. The aim of the club is to
+        showcase all the events🎭, club activities⚽, talents and college life
+        at BCE Bhagalpur. It is a soul initiative of Campus TV and Radio Club
         (Frontiers) 📻 of Bhagalpur College Of Engineering. Run by: Campus TV
         and Radio Club (Frontiers) 📻.
       </p>
@@ -186,53 +182,50 @@
     <script>
       $(document).ready(function () {
         $("#calendar").evoCalendar({
-          theme: 'Midnight Blue',
-        
-    calendarEvents: [
-    {
-        id: 'marsman', 
-        name: "Happy Birthday Himanshu", 
-        badge: "party",
-        date: "September/11/2003", 
-        type: "birthday", 
-        description: "<b>Happy Birthday <a href=\"https://himanshu-vishwas.github.io\" target=\"_blank\">Himanshu Sir</a></b>",
-        everyYear: true
-        
-      },
-     
-      {
-        id: 'bHay68s', 
-        name: "testing", 
-        badge: "5",
-        date: "January/23/2023", 
-        type: "event", 
-        description: "<b><a href=\"https://www.google.com\" target=\"_blank\">hi<a/></b>",
-        everyYear: false
-        
-      },
-      {
-        id: 'bHay68s', 
-        name: "New Year", 
-        badge: "ok",
-        date: "January/1/2023", 
-        type: "holiday", 
-        description: "Happy New Year",
-        everyYear: false
-        
-      },
+          theme: "Midnight Blue",
 
+          calendarEvents: [
+            {
+              id: "marsman",
+              name: "Happy Birthday Himanshu",
+              badge: "party",
+              date: "September/11/2003",
+              type: "birthday",
+              description:
+                '<b>Happy Birthday <a href="https://himanshu-vishwas.github.io" target="_blank">Himanshu Sir</a></b>',
+              everyYear: true,
+            },
 
-      //more than one days 
-      // {
-      //   name: "Vacation Leave",
-      //   badge: "02/13 - 02/15", // Event badge (optional)
-      //   date: ["February/13/2020", "February/15/2020"], // Date range
-      //   description: "Vacation leave for 3 days.", // Event description (optional)
-      //   type: "event",
-      //   color: "#63d867" // Event custom color (optional)
-      // }
-    ]
+            {
+              id: "bHay68s",
+              name: "testing",
+              badge: "5",
+              date: "January/23/2023",
+              type: "event",
+              description:
+                '<b><a href="https://www.google.com" target="_blank">hi<a/></b>',
+              everyYear: false,
+            },
+            {
+              id: "bHay68s",
+              name: "New Year",
+              badge: "ok",
+              date: "January/1/2023",
+              type: "holiday",
+              description: "Happy New Year",
+              everyYear: false,
+            },
 
+            //more than one days
+            // {
+            //   name: "Vacation Leave",
+            //   badge: "02/13 - 02/15", // Event badge (optional)
+            //   date: ["February/13/2020", "February/15/2020"], // Date range
+            //   description: "Vacation leave for 3 days.", // Event description (optional)
+            //   type: "event",
+            //   color: "#63d867" // Event custom color (optional)
+            // }
+          ],
         });
       });
     </script>
