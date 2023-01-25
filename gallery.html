@@ -308,7 +308,7 @@ var timeOut = 3000;
                 slideIndex = 1
             }
             if (slideIndex == 0) {
-                slideIndex = 3
+                slideIndex = slides.length
             }
             slides[slideIndex - 1].style.display = "block";
             dots[slideIndex - 1].className += " active";
