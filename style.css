@@ -271,6 +271,18 @@ p {
 }
 
 /* Course Section End */
+/*techfest section start*/
+.techfest{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*techfest section end*/
 
 .News {
     width: 80%;
