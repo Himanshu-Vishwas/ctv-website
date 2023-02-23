@@ -187,6 +187,17 @@ nav .fa {
 
 /* Responsive Navbar Section End */
 
+.buttonss{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonss .buttons{
+    margin:10px;
+}
+
 /* Course Section Start */
 
 .course {
@@ -640,6 +651,8 @@ team_members .member .content .sci a:hover{
 
 
 /* About Us Section end */
+
+
 
 /* Blog Section start */
 
